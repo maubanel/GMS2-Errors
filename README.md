@@ -55,13 +55,17 @@ Type the following script in the newly created draw script.  Please mispell `dra
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-![alt_text](images/.png)
+*Double left click* on **rm_errors** to open the room and *drag and drop* the **obj_errors_controller** object into the room.
+
+![Draw obj_errors_controller to outside of room](images/DragErrorsControllerInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Run the game again by pressing the <img style="vertical-align:middle" src="https://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> Play Button. This time the game never runs.  At the very bottom there should be a tab whose title is Compile Errors.  Inside it reads the message Object:obj_errors_controller Event:Draw at line 7: unknown function or script draw_tetx.  Sometimes the errors can be a bit obtuse other times there are very precise.  Now we know which object, which event type and what line our error is in.
+
+![Run game but compile errors inhibits game from starting](images/CompileErrorWrongFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
