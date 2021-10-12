@@ -71,7 +71,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+OK, lets fix the spelling mistake.  Please notice the color change in the editor. If you are using a gamemaker function or variable it will be an orange color and this is one tip that something is wrong. This only works for GML supplied names, as the ones we create ourselves will never be orange.
+
+![Look at color of built in variable names and functions](images/DrawTextSpellingFix.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
