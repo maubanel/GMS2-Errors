@@ -87,13 +87,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets look at some more errors.  Lets make the font a bit larger.  *Right click* on the **Fonts** title in the **Asset Browser** menu.  Select **Create | Font** from the menu and name the new font `fnt_title`</tt.> Change the **Style** to `Bold` and the **Size** to `24`.  This will be twice the size as the previous version.
+
+![Create a title font](images/CreateTitleFont.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now reopen the **obj_errors_controller:Draw** event script and change the font before the draw text with a new function called **[draw_set_font(font](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Drawing/Text/draw_set_font.htm)**.
+
+![Change font type for title in obj_errors_controller draw event](images/InsertFontTitleIntoScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
