@@ -103,7 +103,7 @@ Now reopen the **obj_errors_controller:Draw** event script and change the font b
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now mispell the font name in the parenthesis.  Look at what happens to the color of it?  Not only does GameMaker color its own variables and functions it also colors red resource names that it recognizes that you added to the resource list.  In this case if we don't spell it, it will look for a variable holding a font. OK, change the spelling back to fnt_title and fix the spelling error.  
+Now mispell the font name in the parenthesis.  Look at what happens to the color of it?  Not only does GameMaker color its own variables and functions it also colors red resource names that it recognizes that you added to the resource list.  In this case if we don't spell it, it will look for a variable holding a font.   
 
 ![Change font name to be wrong](images/MispellFontTitle.png)
 
@@ -112,31 +112,41 @@ Now mispell the font name in the parenthesis.  Look at what happens to the color
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Run the game and we have a run time error where it can't find the font to load when trying to load the room.
+
+![run time error](images/FontError.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+OK, change the spelling back to `fnt_title` and fix the spelling error. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The title is now a lot larger.  Now lets change the color of the font.
+
+![fix font name then run game to see larger title](images/RoomErrorTitlePlain.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets add the function **[draw_set_color(color)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/draw_set_colour.htm)**. This affects all colors after the line that you will be drawing (font or not).  Now make sure you mistype this on purpose with two `((` opening parenthesis and a *mispelled* color name (should be c_green and not just green).
+
+![Set color with errors](images/DrawSetColorWrong.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+For an error that trips up the parser (it reads text and looks for issues like more opening parenthesis than closing ones) it will have a red highlight.  Now the issue with compiler issues is that the problem is not always on the line indicated.  In this case the first red box is correct but the second red box has no errors.  Often the error is not where the **IDE** thinks it is and you have to be careful.
+
+![Red error boxes don't always point to correct spot](images/ParseErrorRed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Before fixing any errors run the game again by pressing the <img style="vertical-align:middle" src="https://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> Play Button. Take a look at the error.  Again, it gives you a hint to the first problem.  Notice that it says nothing about our second error at this point.  This is still a compile time error.
+
+![Another compile time error with extra parenthesis0](images/RunCompileError.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
