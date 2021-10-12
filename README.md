@@ -39,13 +39,17 @@ Right click on **Objects** title in the **Asset Browser** folder.  Select **Crea
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets start with heads up display (HUD) for this room.  Press the <kbd>Add Event</kbd> button and select a **Draw | Draw** event.
+
+![Add draw event to obj_errors_controller](images/AddDrawEventToObjErrorsContr.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Type the following script in the newly created draw script.  Please mispell `draw_text` on purpose to show what happens if you mispell a function name.
+
+![mispell draw_text function](images/DrawRoomTitleMispelledFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
