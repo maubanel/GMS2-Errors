@@ -63,7 +63,7 @@ Type the following script in the newly created draw script.  Please mispell `dra
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Run the game again by pressing the <img style="vertical-align:middle" src="https://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> Play Button. This time the game never runs.  At the very bottom there should be a tab whose title is Compile Errors.  Inside it reads the message Object:obj_errors_controller Event:Draw at line 7: unknown function or script draw_tetx.  Sometimes the errors can be a bit obtuse other times there are very precise.  Now we know which object, which event type and what line our error is in.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This time the game never runs.  At the very bottom there should be a tab whose title is Compile Errors.  Inside it reads the message `Object:obj_errors_controller Event:Draw at line 7: unknown function or script draw_tetx`.  Sometimes the errors can be a bit obtuse other times there are very precise.  Now we know which object, which event type and what line our error is in.
 
 ![Run game but compile errors inhibits game from starting](images/CompileErrorWrongFunction.png)
 
