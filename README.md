@@ -4,7 +4,13 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at [variables](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Variables_And_Variable_Scope.htm) in GMS2. Variables are used to store information that we can use later on.
+This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at errors.  There are three kind of errors:
+
+* Compile errors.  This is where the game does not compile so it cannot be run.  Often this is just a simple spelling mistake.
+
+* Runtime errors.  These are errors that appear when playing the game.  These can be a bit trickier to track down.
+
+* Logical errors.  These never break, crash or cause any warnings in the game.  They are just plain mistakes or wrong - resulting in an unwanted behavior.  Often we refer to these as bugs.
 
 * Tested on GameMake Studio2.3.5.589
 * An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
