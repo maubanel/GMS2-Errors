@@ -160,7 +160,13 @@ Fix the first error in the script by deleting the extra opening parenthesis.  No
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Run time errors are a little bit harder to fix and understand the error message.  The reason it compiled and run is it thought you had created a variable called green that you were calling.  In fact if you added the line `green = c_green`.
+	
+It would have ran fine (although you needlessly created another variable for the color green). The hint in the error message it says green... not set before reading it.  This is a very common error that occurs when we forget to give a variable a default initial value or mispell the name.  
+
+Fix the error and run the game with the green font shown.
+
+![fix compile error then run to see green title](images/GreenRoomOfErrors.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
