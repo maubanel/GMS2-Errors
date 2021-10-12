@@ -152,7 +152,9 @@ Before fixing any errors run the game again by pressing the <img style="vertical
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Fix the first error in the script by deleting the extra opening parenthesis.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This time it does run so it did compile and build the game.  But uh oh, it creates a run time error:
+
+![no compile error but rutime one](images/ErrorOnGreen.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
