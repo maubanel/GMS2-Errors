@@ -23,7 +23,9 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Lets create a new room by *right-clicking* on **Rooms** in the **Asset Browser** tab and selecting **Create | Room**.  Call it `rm_errors`. Move the room to the top in the **Room Order** menu.
+
+![Create new room called rm_errors and move to top of room order](images/AddRmErrors.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
