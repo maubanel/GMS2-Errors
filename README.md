@@ -12,6 +12,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 * Logical errors.  These never break, crash or cause any warnings in the game.  They are just plain mistakes or wrong - resulting in an unwanted behavior.  Often we refer to these as bugs.
 
+#### Software Needed
 * Tested on GameMake Studio2.3.5.589
 * An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
 
