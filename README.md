@@ -231,7 +231,7 @@ Open up **obj_errors** and call the script we just created `Errors()`; Now press
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **scr_errors** and fix all the errors in the script.  There are compile, runtime and syntax errors.  So you need to match the below exactly to fix all mistakes in the script:
+Open up **scr_errors** and fix all the errors in the script.  There are compile, runtime and syntax errors.  So you need to match the below exactly to fix all mistakes in the script.  Now complete this on your own and develop some experience debugging someone elses script!
 
 ![finished room of errors all fixed](images/debuggedRoomOfErrors.png)
 
