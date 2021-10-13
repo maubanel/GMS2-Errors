@@ -180,7 +180,7 @@ The next step is to call an existing script with errors in it.  Create a new fon
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Now right click on **Scripts** and select **Create | Script**.  Call it `src_errors`. Copy and paste the below to replace all text in the script.
+Now right click on **Scripts** and select **Create | Script**.  Call it `src_errors`. Copy and paste the below to replace all text in the script. Please note this will be full of errors!
 
 ```gml
 function Erros()
