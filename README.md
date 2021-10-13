@@ -235,6 +235,14 @@ Open up **scr_errors** and fix all the errors in the script.  There are compile,
 
 ![finished room of errors all fixed](images/debuggedRoomOfErrors.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
+
 | `gms2.variables`\|`THE END`| 
 | :--- |
 | **That's All Folks!** That's it for variables. |
