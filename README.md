@@ -179,8 +179,10 @@ The next step is to call an existing script with errors in it.  Create a new fon
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+
+Now right click on **Scripts** and select **Create | Script**.  Copy and paste the below to replace all text in the script.
+
 ```gml
-function Erros()
 function Erros()
 {
 	// Make a red font
