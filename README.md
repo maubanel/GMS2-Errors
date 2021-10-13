@@ -172,12 +172,49 @@ Fix the error and run the game with the green font shown.
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The next step is to call an existing script with errors in it.  Create a new font by clicking on **Font** and select **Create | Font** and call it `fnt_text`.  Letave the default settings.
+
+![create new font called fnt_text with default settings](images/FontText.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
+```gml
+function Erros()
+function Erros()
+{
+	// Make a red font
+	(draw_set_colour(c_red);
+	
+	// Go back to normal text font
+	draw_set_font(fnt_title);
+	
+	// Center alignment of text
+	draw_set_halign(center);
+	
+	// First sentence 
+	draw_text(room_width * 2, 66, "I am a red first sentence";
+	
+	// Second sentence
+	draw_set_color(white);
+	
+	draw_text(room_width * .5, 88, "I am feeling lighter!");
+	
+	// Countdown from 3 to 1)
+	i = 3;
+	repeat(2)
+	{
+		draw_text (room_width * .5, ((4-i) * 22 + 88), i);
+		i = i - 1;
+	}
+	
+	// Change to green font
+	draw_set_halign(c_green);
+	
+	// Print on next line
+	draw_text(room_width * .5, 172, "You have debugged me!");
+}
+```
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
