@@ -180,7 +180,7 @@ The next step is to call an existing script with errors in it.  Create a new fon
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Now right click on **Scripts** and select **Create | Script**.  Copy and paste the below to replace all text in the script.
+Now right click on **Scripts** and select **Create | Script**.  Call it `src_errors`. Copy and paste the below to replace all text in the script.
 
 ```gml
 function Erros()
@@ -217,7 +217,7 @@ function Erros()
 	draw_text(room_width * .5, 172, "You have debugged me!");
 }
 ```
-![alt_text](images/.png)
+![copy and paste script to newly crated scr_errors](images/copyPasteScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
