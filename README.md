@@ -183,7 +183,7 @@ The next step is to call an existing script with errors in it.  Create a new fon
 Now right click on **Scripts** and select **Create | Script**.  Call it `src_errors`. Copy and paste the below to replace all text in the script. Please note this will be full of errors!
 
 ```gml
-function Erros()
+function Errors()
 {
 	// Make a red font
 	(draw_set_colour(c_red);
