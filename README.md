@@ -223,7 +223,17 @@ function Errors()
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_errors** and call the script we just created `Errors()`; Now press the <kbd>Run</kbd> button and you will get compile errors in **scr_errors**.  
+
+![open up obj_errors and call the Errors script](images/callErrors.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up **scr_errors** and fix all the errors in the script.  There are compile, runtime and syntax errors.  So you need to match the below exactly to fix all mistakes in the script:
+
+![finished room of errors all fixed](images/debuggedRoomOfErrors.png)
 
 | `gms2.variables`\|`THE END`| 
 | :--- |
